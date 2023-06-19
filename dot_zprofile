@@ -1,0 +1,20 @@
+
+
+# Added by Toolbox App
+export PATH="$PATH:/Users/hucong/Library/Application Support/JetBrains/Toolbox/scripts"
+
+# Added by homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+export HOMEBREW_API_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api"
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
+export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
+export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
+
+# Added by pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# Added by lunarvim
+export PATH="$PATH:/Users/hucong/.local/bin"
